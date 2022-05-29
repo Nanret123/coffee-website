@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop Website</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/5ade3f9829.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Header section-->
+    <header class="header">
+        <a href="#" class="logo"><img src="./images/logo.png" alt=""></a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#products">Products</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fa-regular fa-magnifying-glass" id="search-btn"></div>
+            <div class="fa-regular fa-cart-shopping" id="cart-btn"></div>
+            <div class="fa-regular fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+        </div>
+
+        <div class="cart-items-container">
+
+            <div class="cart-item">
+                <span class="fa-regular fa-xmark"></span>
+                <img src="./images/download.jpeg" alt="">
+                <div class="content">
+                    <h3>cart item 01</h3>
+                    <div class="price">$15.99</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fa-regular fa-xmark"></span>
+                <img src="./images/download.jpeg" alt="">
+                <div class="content">
+                    <h3>cart item 02</h3>
+                    <div class="price">$15.99</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fa-regular fa-xmark"></span>
+                <img src="./images/download.jpeg" alt="">
+                <div class="content">
+                    <h3>cart item 03</h3>
+                    <div class="price">$15.99</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fa-regular fa-xmark"></span>
+                <img src="./images/download.jpeg" alt="">
+                <div class="content">
+                    <h3>cart item 04</h3>
+                    <div class="price">$15.99</div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">Order Now</a>
+        </div>
+    </header>
+    <!--Header section ends-->
+
+    <!--Home Section Starts-->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh Morning Coffee</h3>
+            <p>A nice cup of coffee. No matter how you take it- iced, instant, with cream and sugar, cold brew, French Press, pour over- we all love it.</p>
+            <a href="#" class="btn">Get Your's Now</a>
+        </div>
+    </section>
+    <!--Home Section Ends-->
+
+
+    <!--About section starts-->
+    <section class="about" id="about">
+        <h1 class="heading"><span>About </span>Us</h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="./images/stump1.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>What Makes our Coffee Special?</h3>
+                <p>We buy only from reputable farmers and millers at volumes equal to several hundred acres. We roast what we immediately need and age the rest. We don't warehouse roasted coffee.</p>
+                <p>Our "Estate" coffee is from a single grade, so you get a much more uniform roast at the perfect temperature for that size</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+
+        </div>
+    </section>
+    <!--About section ends-->
+
+    <!--menu Section starts-->
+
+    <section class="menu" id="menu">
+        <h1 class="heading">OUR <span>DAILY </span>SPECIALS</h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./images/special1.jpg" alt="">
+                <h3>French Cafe au Lait</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/special2.jpg" alt="">
+                <h3>Pour-over Coffee</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/special6.jpg" alt="">
+                <h3>Cuban Coffee (Cafecito)</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/special4.jpg" alt="">
+                <h3>The Perfect Cappuccino</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/special5.jpg" alt="">
+                <h3>Cafe Noir(New Orleans Coffee)</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/special7.jpg" alt="">
+                <h3>Cold Brew Coffee</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </section>
+    <!--menu Section ends-->
+
+    <!--Product Section Begins-->
+    <section class="products" id="products">
+        <h1 class="heading">OUR <span>TOP </span>PRODUCTS</h1>
+        <div class="box-container">
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fa-regular fa-cart-shopping"></a>
+                    <a href="#" class="fa-regular fa-heart"></a>
+                    <a href="#" class="fa-regular fa-eye"></a>
+                </div>
+
+                <div class="image">
+                    <img src="./images/stump2.png" alt="">
+                </div>
+
+                <div class="content">
+                    <h3>French Roast</h3>
+                    <div class="stars">
+                        <i class="fas fa-star">link</i>
+                        <i class="fas fa-star">link</i>
+                        <i class="fas fa-star">link</i>
+                        <i class="fas fa-star">link</i>
+                        <i class="fas fa-star-half-alt">link</i>
+                    </div>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fa-regular fa-cart-shopping"></a>
+                    <a href="#" class="fa-regular fa-heart"></a>
+                    <a href="#" class="fa-regular fa-eye"></a>
+                </div>
+
+                <div class="image">
+                    <img src="./images/stump3.png" alt="">
+                </div>
+
+                <div class="content ">
+                    <h3>House Blend</h3>
+                    <div class="stars ">
+                        <i class="fas fa-star">link</i>
+                        <i class="fas fa-star">link</i>
+                        <i class="fas fa-star">link</i>
+                        <i class="fas fa-star">link</i>
+                        <i class="fas fa-star-half-alt">link</i>
+                    </div>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fa-regular fa-cart-shopping"></a>
+                    <a href="#" class="fa-regular fa-heart"></a>
+                    <a href="#" class="fa-regular fa-eye"></a>
+                </div>
+
+                <div class="image">
+                    <img src="./images/stump5.png" alt="">
+                </div>
+
+                <div class="content">
+                    <h3>Trapper Creek</h3>
+                    <div class="stars ">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star-half"></i>
+                    </div>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Product Section Ends-->
+
+    <!--review Section starts-->
+    <section class="review" id="review">
+        <h1 class="heading"> CUSTOMER'S <span>REVIEW</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <p>The place is amazing. They offered the best coffee and showed the best attitude to customers. Internet connection is very fast and unlimited as well.</p>
+                <img src="./images/customer1.jpeg" class="user" alt="">
+                <h3>John Doe</h3>
+                <div class="stars">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star-half"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <p> Will go again. i only popped in to get take-away cappuccinos, but I was struck by how friendly the service was. The cappuccinos are wonderful too! And very well priced.</p>
+                <img src="./images/customer2.jpeg" class="user" alt="">
+                <h3>JohnDoe</h3>
+                <div class="stars ">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star-half"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <p>The coffee shop has it all. The ambiance, interior designs, good coffee, tasty foods, and fast wi-fi connection.</p>
+                <img src="./images/customer3.jpeg" class="user" alt="">
+                <h3>Jane Doe</h3>
+                <div class="stars ">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Review Section Starts-->
+
+    <!--contact Section Starts-->
+    <section class="contact" id="contact">
+        <h1 class="heading"> <span>CONTACT</span> US</h1>
+        <div class="row">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125787.89870462708!2d8.791765695960294!3d9.861118576536631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105375648d579a7d%3A0xeec017f1144066d3!2sDark%20Coffee%20dot%20Zero!5e0!3m2!1sen!2sng!4v1652340288272!5m2!1sen!2sng"
+                allowfullscreen="" loading="lazy"></iframe>
+
+            <form action="">
+                <h3>GET IN TOUCH</h3>
+                <div class="inputBox">
+                    <span class="fa-regular fa-user"></span>
+                    <input type="text" placeholder="name">
+                </div>
+
+                <div class="inputBox">
+                    <span class="fa-regular fa-envelope"></span>
+                    <input type="email" placeholder="email">
+                </div>
+
+                <div class="inputBox">
+                    <span class="fa-regular fa-phone"></span>
+                    <input type="number" placeholder="phone number">
+                </div>
+                <input class="btn" type="submit" value="contact now">
+            </form>
+        </div>
+
+    </section>
+    <!--contact Section Ends-->
+
+
+    <!--blog section starts-->
+
+    <section class="blogs" id="blogs">
+        <h1 class="heading">OUR <span>BLOGS</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="./images/blog1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Home Coffee</a>
+                    <span>by anon / 12 may, 2022</span>
+                    <p>Learn how to brew coffee in the comfort of your own home by following along with a plethora of brew guides.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/blog2.png" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title ">Manual Coffee Brewing</a>
+                    <span>by anon / 12 may, 2022</span>
+                    <p>Outside of the 9-5 life, John enjoys roasting coffee at home and is sharing his experiments with his followers.</p>
+                    <a href="#" class="btn ">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image ">
+                    <img src="./images/coffee-blog.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title ">Coffee Beans delivered</a>
+                    <span>by anon / 12 may, 2022</span>
+                    <p>This information-packed blog covers everything from the latest coffee craze (Tiktok coffee) to flavour profiles from areas as diverse as Rwanda</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--blog section ends-->
+
+    <!--footer section starts-->
+    <section class="footer">
+        <div class="share">
+            <a href="#" class="fa-brands fa-facebook-f"></a>
+            <a href="#" class="fa-brands fa-twitter"></a>
+            <a href="#" class="fa-brands fa-instagram"></a>
+            <a href="#" class="fa-brands fa-pinterest"></a>
+        </div>
+
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#products">Products</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+            <a href="#blogs">Blogs</a>
+        </div>
+    </section>
+
+    <!--footer section starts-->
+    <script src="index.js"></script>
+</body>
+
+</html>
